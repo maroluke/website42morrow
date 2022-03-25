@@ -1,0 +1,30 @@
+body {
+  display: grid;
+  place-content: center;
+  background-image: var(--gradient-15);
+  color: black;
+}
+
+* {
+  color: black;
+}
+
+.card-container {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--size-fluid-4);
+  margin: var(--size-fluid-4);
+  max-width: 1500px;
+}
+
+.card {
+  flex: 0 1 400px;
+  box-shadow: var(--shadow-5);
+  padding: var(--size-fluid-3);
+  border-radius: var(--radius-4);
+  background-color: var(--violet-0);
+  display: grid;
+  gap: var(--size-2);
+}
