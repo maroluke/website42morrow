@@ -28,3 +28,8 @@ body {
   display: grid;
   gap: var(--size-2);
 }
+
+.card__btn {
+  background: var(--green-0;
+  padding: 10px;
+}
